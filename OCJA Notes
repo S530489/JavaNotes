@@ -52,6 +52,9 @@ ex: int[] x = new int[5]; // valid
 
 String s;
 s.concat("shhiva") // Wrong --We cannot add or perform any operation on null like s.length();
+Error msg :
+Inside method : variable s might not been initialezed (Compile time);
+In class : Null pointer exception (Runtime)
 Picture-- 1
 
 ------------------------------------------------------
